@@ -10,15 +10,16 @@
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
   <!-- icheck bootstrap -->
-  <link rel="stylesheet" href="../../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <link rel="stylesheet" href="../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="../dist/css/adminlte.min.css">
 <!-- fondo -->
 <link rel="preload" href="css/fondo.css" as="style">
 <link href="css/fondo.css" rel="stylesheet">
 </head>
+    
 <body class="hold-transition login-page" style="background-image: url('fondoo.jpg'); background-size: cover; background-position: center;">
   
 <div class="login-box">
@@ -30,7 +31,7 @@
     <div class="card-body login-card-body">
       <p class="login-box-msg">BIENVENIDO AL IESE</p>
 
-      <form action="../../index.html" method="post">
+      <form id="form1" runat="server">
         <div class="input-group mb-3">
           <input type="email" class="form-control" placeholder="CORREO">
           <div class="input-group-append">
@@ -66,7 +67,7 @@
           <!-- /.col -->
         </div>
       </form>
-    <asp:DropDownList ID="DropDownList1" runat="server"></asp:DropDownList>
+   
 
     
       <!-- /.social-auth-links -->
@@ -81,13 +82,15 @@
     <!-- /.login-card-body -->
   </div>
 </div>
+      
 <!-- /.login-box -->
 
 <!-- jQuery -->
-<script src="../../plugins/jquery/jquery.min.js"></script>
+<script src="../plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src=".../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
-<script src="../../dist/js/adminlte.min.js"></script>
+<script src="../dist/js/adminlte.min.js"></script>
 </body>
+        
 </html>

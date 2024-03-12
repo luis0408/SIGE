@@ -26,7 +26,7 @@ namespace SIGE.SIGE.FORMULARIOS
 
             object[] dat = {correo };
             string[] par = {"@correo" };
-            DataSet resultado = objeto.consultarProcedimiento("inicioSesion",dat,par,);
+            DataSet resultado = objeto.consultarProcedimiento("inicioSesion",dat,par);
 
             
         }
